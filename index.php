@@ -73,8 +73,11 @@
         <?php
         $b = 4;
         $c = 6;
-        $a = sqrt(($b * $b) + ($c * $c));
-        echo "Dans un triangle recangle, si b vaut " .$b. " et c vaut " .$c. " alors l'hypothénuse a vaut environ " .$a;
+        function Pythagore($a,$b){
+            $c = sqrt(($a * $a) + ($b * $b));
+            echo "Dans un triangle recangle, si b vaut " .$a. " et c vaut " .$b. " alors l'hypothénuse a vaut environ " .$c;
+        }
+        Pythagore($b,$c);
         ?>
 
         <h2>Exercice 8:</h2>  
