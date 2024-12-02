@@ -48,20 +48,26 @@
             $number = 18;
             function EstPair($nbr){
                 if ($nbr % 2 == 0) {
-                    echo $nbr . " est pair.";
-                    echo "<br>";
+                    return true;
                 } else{
-                    $nbr . " n'est pas pair.";
-                    echo "<br>";
+                    return false;
                 }
             }
-            EstPair($number);
+            if(EstPair($number)){
+                echo $number. " est pair.";
+            } else {
+                echo $number. " n'est pas pair.";
+            }
         ?>
 
         <h2>Exercice 6:</h2>  
         <?php
             for ( $i = 1; $i <= 10; $i++){
                 EstPair($i);
+                if(EstPair($i)){
+                    echo $i. " est pair.";
+                    echo "<br>";
+                }
             }
         ?>
 
