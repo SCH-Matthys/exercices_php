@@ -45,22 +45,23 @@
 
         <h2>Exercice 5:</h2>  
         <?php
-            $number = 16;
-            echo ($number % 2 == 0) ? $number . " est pair." : $number . " n'est pas pair.";
-            echo  "<br>";
-            $number2 = 13;
-            echo ($number2 % 2 == 0) ? $number2 . " est pair." : $number2 . " n'est pas pair.";
+            $number = 18;
+            function EstPair($nbr){
+                if ($nbr % 2 == 0) {
+                    echo $nbr . " est pair.";
+                    echo "<br>";
+                } else{
+                    $nbr . " n'est pas pair.";
+                    echo "<br>";
+                }
+            }
+            EstPair($number);
         ?>
 
         <h2>Exercice 6:</h2>  
         <?php
             for ( $i = 1; $i <= 10; $i++){
-                if( $i % 2 == 0){
-                    echo $i . " est pair";
-                    echo "<br>";
-                } else {
-                    $i . " est impair.";
-                }
+                EstPair($i);
             }
         ?>
 
@@ -170,6 +171,22 @@
             ?>
         </table>
         <style>
+            html{
+                scrollbar-color: white #313131;
+            }
+            main{
+                background-color: #393939;
+                color: white;
+                padding-left: 16px;
+            }
+            main>h2{
+                text-decoration: underline white;
+                font-size: 32px;
+                text-transform: uppercase;
+                padding-top: 32px;
+                padding-bottom: 16px;
+            }
+            /* ///////////////////////////////////// */
             table{
                 border: solid 2px black;
             }

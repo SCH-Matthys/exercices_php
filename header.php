@@ -1,8 +1,8 @@
 <header>
     <nav>
         <ul>
-            <li><a href="">accueil</a></li>
-            <li><a href="">lien 1</a></li>
+            <li><a href="./index.php">accueil</a></li>
+            <li><a href="./page1.php">page 1</a></li>
             <li><a href="">lien 2</a></li>
             <li><a href="">lien 3</a></li>
         </ul>
