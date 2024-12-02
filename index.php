@@ -62,7 +62,7 @@
 
         <h2>Exercice 6:</h2>  
         <?php
-            for ( $i = 1; $i <= 10; $i++){
+            for ( $i = 1; $i <= 20; $i++){
                 if(EstPair($i)){
                     echo $i. " ";
                 }
@@ -95,13 +95,11 @@
 
         <h2>Exercice 9:</h2>  
         <?php
-            echo "Copier Coller du coup.";
-            echo "<br>";
             $number = 16;
-            echo ($number % 2 == 0) ? $number . " est pair." : $number . " n'est pas pair.";
+            echo EstPair($number) ? $number . " est pair." : $number . " n'est pas pair.";
             echo  "<br>";
             $number2 = 13;
-            echo ($number2 % 2 == 0) ? $number2 . " est pair." : $number2 . " n'est pas pair.";
+            echo EstPair($number2) ? $number2 . " est pair." : $number2 . " n'est pas pair.";
         ?>
 
         <h2>Exercice 10:</h2>  
