@@ -63,10 +63,8 @@
         <h2>Exercice 6:</h2>  
         <?php
             for ( $i = 1; $i <= 10; $i++){
-                EstPair($i);
                 if(EstPair($i)){
-                    echo $i. " est pair.";
-                    echo "<br>";
+                    echo $i. " ";
                 }
             }
         ?>
