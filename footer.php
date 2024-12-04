@@ -1,5 +1,5 @@
 <footer>
-
+    <p>footer</p>
 </footer>
 
 <style>
@@ -13,5 +13,11 @@
         height: 100px;
         width: 100%;
         background-color: black;
+    }
+    footer>p{
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 50px;
     }
 </style>

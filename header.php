@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li><a href="./index.php">accueil</a></li>
-            <li><a href="./page1.php">page 1</a></li>
+            <li><a href="./formulaires.php">Les formulaires</a></li>
             <li><a href="">lien 2</a></li>
             <li><a href="">lien 3</a></li>
         </ul>
