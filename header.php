@@ -3,8 +3,8 @@
         <ul>
             <li><a href="./index.php">accueil</a></li>
             <li><a href="./formulaires.php">Les formulaires</a></li>
-            <li><a href="">lien 2</a></li>
-            <li><a href="">lien 3</a></li>
+            <li><a href="./requestBDD.php">Requetes BDD</a></li>
+            <li><a href="./addFilm.php">Ajouter Film</a></li>
         </ul>
     </nav>
 </header>
@@ -17,7 +17,7 @@
         text-decoration: none;
     }
     nav{
-        padding: 25px;
+        padding: 25px 75px;
         background-color: coral;
     }
     ul{
@@ -25,7 +25,7 @@
         justify-content: flex-end;
     }
     li{
-        padding-left: 50px;
+        padding-right: 50px;
     }
     nav>ul>li>a{
         text-transform: uppercase;

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Playpen;
+    src: url(./../fonts/PlayPen/PlaypenSans-Regular.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    font-family: Playpen;
+    text-align: center;
+    background-color: lightcoral;
+}
+main>h1{
+    padding: 32px;
+    text-transform: uppercase;
+    text-decoration: underline #313131;
+}
+main>article{
+    margin: 32px;
+    padding: 16px;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: dashed 1px #313131;
+}
+main>article:hover{
+    cursor: pointer;
+    border: solid 1px #313131;
+}
+
+#formAddFilm{
+    display: flex;
+    flex-direction: column;
+}
+#formAddFilm>input{
+    width: 400px;
+    height: 28px;
+    border-radius: 2px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 32px;
+}
+#formAddFilm>button{
+    margin: 32px;
+    padding: 8px 16px ;
+    margin: auto;
+    width: 200px;
+}
